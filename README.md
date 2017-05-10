@@ -5,8 +5,6 @@ Android Dialog 安卓对话框
 
 Android Dialog 即 Android对话框，在Android开发中，我们经常会需要在Android界面上弹出一些对话框，以询问用户或者让用户选择。Android Dialog 一般有五种，分别是：一般对话框，列表对话框，单选按钮对话框，多选对话框，自定义对话框。
 
-<!-- more -->
-
 ## 一般对话框
 <img src="http://ww4.sinaimg.cn/large/006tNbRwgy1ffg2gl99ipj30u01hcabj.jpg" width="300px"/>
 
