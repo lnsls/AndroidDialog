@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onGeneralDialog"
+        android:text="一般对话框"
+        android:id="@+id/button12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onListDialog"
+        android:text="列表对话框"
+        android:layout_below="@+id/button12"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onRadioDialog"
+        android:text="单选按钮对话框"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onMultipleDialog"
+        android:text="多选对话框"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onCustomizeDialog"
+        android:text="自定义对话框"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
